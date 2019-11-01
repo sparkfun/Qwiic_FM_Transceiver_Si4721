@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.5.0">
+<eagle version="9.5.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -10,6 +10,18 @@
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
+<layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
+<layer number="5" name="Route5" color="4" fill="4" visible="no" active="no"/>
+<layer number="6" name="Route6" color="1" fill="8" visible="no" active="no"/>
+<layer number="7" name="Route7" color="4" fill="8" visible="no" active="no"/>
+<layer number="8" name="Route8" color="1" fill="2" visible="no" active="no"/>
+<layer number="9" name="Route9" color="4" fill="2" visible="no" active="no"/>
+<layer number="10" name="Route10" color="1" fill="7" visible="no" active="no"/>
+<layer number="11" name="Route11" color="4" fill="7" visible="no" active="no"/>
+<layer number="12" name="Route12" color="1" fill="5" visible="no" active="no"/>
+<layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
 <layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
@@ -1230,6 +1242,63 @@ Commonly used for small ceramic capacitors. Like our 0.1uF (http://www.sparkfun.
 <technology name="">
 <attribute name="PROD_ID" value="CAP-07885" constant="no"/>
 <attribute name="VALUE" value="22nF" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="2.2UF" prefix="C">
+<description>&lt;h3&gt;2.2µF ceramic capacitors&lt;/h3&gt;
+&lt;p&gt;A capacitor is a passive two-terminal electrical component used to store electrical energy temporarily in an electric field.&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="CAP" x="0" y="0"/>
+</gates>
+<devices>
+<device name="-0603-10V-20%" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="CAP-07888" constant="no"/>
+<attribute name="VALUE" value="2.2uF" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="-0805-25V-(+80/-20%)" package="0805">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="CAP-11624"/>
+<attribute name="VALUE" value="2.2uF"/>
+</technology>
+</technologies>
+</device>
+<device name="-1206-50V-10%" package="1206">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="CAP-10009"/>
+<attribute name="VALUE" value="2.2uF"/>
+</technology>
+</technologies>
+</device>
+<device name="-0402_TIGHT-10V-10%-X5R" package="0402-TIGHT">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="CAP-14232"/>
+<attribute name="VALUE" value="2.2uF"/>
 </technology>
 </technologies>
 </device>
@@ -5974,6 +6043,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="U$18" library="SparkX" deviceset="SPARKX-LOGO" device="4"/>
 <part name="JP2" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_2_NC_TRACE" device="_SILK" value=""/>
 <part name="R10" library="SparkFun-Resistors" deviceset="100KOHM" device="-0603-1/10W-1%" value="100k"/>
+<part name="C13" library="SparkFun-Capacitors" deviceset="2.2UF" device="-0603-10V-20%" value="2.2uF"/>
+<part name="GND15" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -6004,6 +6075,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 LOW addr = 0010001 (0x11)
 HIGH addr = 1100011 (0x63)</text>
 <text x="177.8" y="181.864" size="1.27" layer="94">TODO: Note about antenna length/material</text>
+<text x="2.54" y="177.8" size="1.27" layer="94">!RST needs to come up after VDD to boot into I2C mode. 
+2.2uF is chosen because we have it in stock. 
+Should provide about 20ms from power applied to !RST &gt; 0.7*VDD</text>
 </plain>
 <instances>
 <instance part="U1" gate="G$1" x="55.88" y="152.4" smashed="yes">
@@ -6039,12 +6113,12 @@ HIGH addr = 1100011 (0x63)</text>
 <instance part="SUPPLY1" gate="G$1" x="83.82" y="152.4" smashed="yes">
 <attribute name="VALUE" x="83.82" y="155.194" size="1.778" layer="96" align="bottom-center"/>
 </instance>
-<instance part="R1" gate="G$1" x="25.4" y="162.56" smashed="yes" rot="R270">
-<attribute name="NAME" x="26.924" y="167.64" size="1.778" layer="95" font="vector" rot="R270" align="bottom-center"/>
-<attribute name="VALUE" x="28.956" y="160.02" size="1.778" layer="96" font="vector" rot="R270" align="top-center"/>
+<instance part="R1" gate="G$1" x="22.86" y="162.56" smashed="yes" rot="R270">
+<attribute name="NAME" x="24.384" y="167.64" size="1.778" layer="95" font="vector" rot="R270" align="bottom-center"/>
+<attribute name="VALUE" x="26.416" y="160.02" size="1.778" layer="96" font="vector" rot="R270" align="top-center"/>
 </instance>
-<instance part="SUPPLY2" gate="G$1" x="25.4" y="170.18" smashed="yes">
-<attribute name="VALUE" x="25.4" y="172.974" size="1.778" layer="96" align="bottom-center"/>
+<instance part="SUPPLY2" gate="G$1" x="22.86" y="170.18" smashed="yes">
+<attribute name="VALUE" x="22.86" y="172.974" size="1.778" layer="96" align="bottom-center"/>
 </instance>
 <instance part="J1" gate="G$1" x="223.52" y="73.66" smashed="yes" rot="MR0">
 <attribute name="NAME" x="228.6" y="79.248" size="1.778" layer="95" font="vector" rot="MR0"/>
@@ -6237,6 +6311,13 @@ HIGH addr = 1100011 (0x63)</text>
 <attribute name="NAME" x="147.32" y="174.244" size="1.778" layer="95" font="vector" align="bottom-center"/>
 <attribute name="VALUE" x="147.32" y="171.196" size="1.778" layer="96" font="vector" align="top-center"/>
 </instance>
+<instance part="C13" gate="G$1" x="22.86" y="147.32" smashed="yes">
+<attribute name="NAME" x="24.384" y="150.241" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="24.384" y="145.161" size="1.778" layer="96" font="vector"/>
+</instance>
+<instance part="GND15" gate="1" x="22.86" y="139.7" smashed="yes">
+<attribute name="VALUE" x="22.86" y="139.446" size="1.778" layer="96" align="top-center"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -6348,6 +6429,11 @@ HIGH addr = 1100011 (0x63)</text>
 <pinref part="JP2" gate="G$1" pin="2"/>
 <wire x1="139.7" y1="157.48" x2="139.7" y2="160.02" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="C13" gate="G$1" pin="2"/>
+<wire x1="22.86" y1="144.78" x2="22.86" y2="142.24" width="0.1524" layer="91"/>
+<pinref part="GND15" gate="1" pin="GND"/>
+</segment>
 </net>
 <net name="LIN" class="0">
 <segment>
@@ -6422,7 +6508,7 @@ HIGH addr = 1100011 (0x63)</text>
 </segment>
 <segment>
 <pinref part="R1" gate="G$1" pin="1"/>
-<wire x1="25.4" y1="167.64" x2="25.4" y2="170.18" width="0.1524" layer="91"/>
+<wire x1="22.86" y1="167.64" x2="22.86" y2="170.18" width="0.1524" layer="91"/>
 <pinref part="SUPPLY2" gate="G$1" pin="3.3V"/>
 </segment>
 <segment>
@@ -6490,8 +6576,11 @@ HIGH addr = 1100011 (0x63)</text>
 <segment>
 <pinref part="R1" gate="G$1" pin="2"/>
 <pinref part="U1" gate="G$1" pin="!RST"/>
-<wire x1="25.4" y1="157.48" x2="25.4" y2="154.94" width="0.1524" layer="91"/>
-<wire x1="25.4" y1="154.94" x2="40.64" y2="154.94" width="0.1524" layer="91"/>
+<wire x1="22.86" y1="157.48" x2="22.86" y2="154.94" width="0.1524" layer="91"/>
+<wire x1="22.86" y1="154.94" x2="40.64" y2="154.94" width="0.1524" layer="91"/>
+<wire x1="22.86" y1="154.94" x2="22.86" y2="152.4" width="0.1524" layer="91"/>
+<junction x="22.86" y="154.94"/>
+<pinref part="C13" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="FMI" class="0">

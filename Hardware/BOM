@@ -1,0 +1,48 @@
+Partlist
+
+Exported from Qwiic_FM_Transceiver_Si4721.brd at 10/7/2019 2:20 PM
+
+EAGLE Version 9.5.0 Copyright (c) 1988-2019 Autodesk, Inc.
+
+Assembly variant: 
+
+Part     Value                        Package                      Library                Position (inch)       Orientation
+
+C1       15pF                         0603                         SparkFun-Capacitors    (0.4 0.47)            R0
+C2       15pF                         0603                         SparkFun-Capacitors    (0.4 0.235)           R0
+C3       1nF                          0603                         SparkFun-Capacitors    (0.83 1.05)           R90
+C4       0.47uF                       0603                         SparkFun-Capacitors    (0.84 0.24)           R0
+C5       0.47uF                       0603                         SparkFun-Capacitors    (0.84 0.3)            R0
+C6       0.1uF                        0603                         SparkFun-Capacitors    (1.66 0.14)           R0
+C7       47uF                         EIA3528                      SparkFun-Capacitors    (1.75 0.35)           R90
+C8       47uF                         EIA3528                      SparkFun-Capacitors    (1.25 0.35)           R270
+C9       0.1uF                        0603                         SparkFun-Capacitors    (1.36 0.56)           R180
+C10      1uF                          0603-CAP                     SparkFun-Capacitors    (0.7 0.15)            R270
+C11      1uF                          0603-CAP                     SparkFun-Capacitors    (0.62 0.15)           R270
+C12      22nF                         0603                         SparkFun-Capacitors    (0.54 0.15)           R270
+D1       RED                          LED-0603                     SparkFun-LED           (0.18 0.47)           R180
+FD1      FIDUCIAL0.2MM                FIDUCIAL-0.2MM               SparkFun-Aesthetics    (2.1 1.15)            R0
+FD2      FIDUCIAL0.2MM                FIDUCIAL-0.2MM               SparkFun-Aesthetics    (0.2 0.05)            R0
+J1       AUDIO_JACK_3.5MM_SMD         AUDIO-JACK-3.5MM-SMD         SparkFun-Connectors    (1.1 1.35)            R270
+J2       AUDIO_JACK_3.5MM_SMD         AUDIO-JACK-3.5MM-SMD         SparkFun-Connectors    (1.6 1.35)            R270
+J3                                    1X02_POKEHOME                SparkFun-Connectors    (0.6 1.065)           R270
+J4       QWIIC_RIGHT_ANGLE            JST04_1MM_RA                 SparkFun-Connectors    (0.2 0.7)             R270
+J5       QWIIC_RIGHT_ANGLE            JST04_1MM_RA                 SparkFun-Connectors    (1.95 0.7)            R90
+JP1      JUMPER-SMT_3_2-NC_TRACE_SILK SMT-JUMPER_3_2-NC_TRACE_SILK SparkFun-Jumpers       (2.07 0.99)           R270
+JP2                                   SMT-JUMPER_2_NC_TRACE_SILK   SparkFun-Jumpers       (0.15 1.05)           R90
+L1       270nH                        0603                         SparkFun-Coils         (0.92 1.05)           R270
+L2       FERITE 2.5k                  0603                         SparkFun-Coils         (1.38 1.04)           R90
+L3       FERITE 2.5K                  0603                         SparkFun-Coils         (1.29 1.04)           R90
+L4       120nH                        0603                         SparkFun-Coils         (0.4 0.68)            R180
+R1       10k                          0603                         SparkFun-Resistors     (0.4 0.61)            R0
+R2       2.2k                         0603                         SparkFun-Resistors     (1.89 0.95)           R0
+R3       2.2k                         0603                         SparkFun-Resistors     (1.89 1.03)           R0
+R4       20k                          0603                         SparkFun-Resistors     (1.51 0.56)           R0
+R5       20k                          0603                         SparkFun-Resistors     (1.51 0.14)           R0
+R6       20k                          0603                         SparkFun-Resistors     (1.66 0.56)           R180
+R7       20k                          0603                         SparkFun-Resistors     (1.36 0.14)           R0
+R8       1k                           0603                         SparkFun-Resistors     (0.18 0.39)           R180
+R10      100k                         0603                         SparkFun-Resistors     (0.15 0.915)          R270
+U1       SI4721                       QFN-20-3X3MM                 SparkFun-RF            (0.63 0.42)           R270
+U3       TPA6111A2DR                  SO08                         SparkFun-IC-Amplifiers (1.5 0.35)            R180
+Y1       32.768kHz                    CRYSTAL-SMD-3.2X1.5MM        SparkFun-Clocks        (0.43 0.35)           R270

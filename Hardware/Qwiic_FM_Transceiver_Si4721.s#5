@@ -6381,7 +6381,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="GND9" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="R2" library="SparkFun-Resistors" deviceset="2.2KOHM" device="-0603-1/10W-1%" value="2.2k"/>
 <part name="R3" library="SparkFun-Resistors" deviceset="2.2KOHM" device="-0603-1/10W-1%" value="2.2k"/>
-<part name="JP1" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_3_2-NC_TRACE" device="_NO-SILK" value=""/>
+<part name="JP1" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_3_2-NC_TRACE" device="_SILK" value="JUMPER-SMT_3_2-NC_TRACE_SILK"/>
 <part name="SUPPLY4" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
 <part name="GND10" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="R8" library="SparkFun-Resistors" deviceset="1KOHM" device="-0603-1/10W-1%" value="1k"/>
