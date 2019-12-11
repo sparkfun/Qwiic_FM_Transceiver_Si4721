@@ -1,5 +1,4 @@
 # Qwiic FM Transceiver - Si4721
-========================================
 
 ![Qwiic FM Transceiver](https://cdn.sparkfun.com//assets/parts/1/4/4/8/7/15853-Qwiic_FM_Transceiver_-_Si4721-02.jpg)
 
