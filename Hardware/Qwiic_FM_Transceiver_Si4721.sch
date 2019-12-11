@@ -6080,9 +6080,9 @@ HIGH addr = 1100011 (0x63)</text>
 Should provide about 20ms from power applied to !RST &gt; 0.7*VDD</text>
 </plain>
 <instances>
-<instance part="U1" gate="G$1" x="55.88" y="152.4" smashed="yes">
-<attribute name="NAME" x="43.18" y="167.64" size="1.778" layer="95"/>
-<attribute name="VALUE" x="43.18" y="132.08" size="1.778" layer="96"/>
+<instance part="U1" gate="G$1" x="55.88" y="147.32" smashed="yes">
+<attribute name="NAME" x="43.18" y="162.56" size="1.778" layer="95"/>
+<attribute name="VALUE" x="43.18" y="127" size="1.778" layer="96"/>
 </instance>
 <instance part="FRAME1" gate="G$1" x="0" y="0" smashed="yes"/>
 <instance part="FRAME1" gate="V" x="147.32" y="0" smashed="yes">
@@ -6092,33 +6092,33 @@ Should provide about 20ms from power applied to !RST &gt; 0.7*VDD</text>
 <attribute name="DESIGNER" x="170.434" y="11.176" size="2.7432" layer="94" font="vector"/>
 <attribute name="REV" x="236.22" y="6.604" size="2.7432" layer="94" font="vector"/>
 </instance>
-<instance part="Y1" gate="G$1" x="78.74" y="132.08" smashed="yes" rot="R180">
-<attribute name="NAME" x="78.74" y="130.048" size="1.778" layer="95" font="vector" rot="R180" align="bottom-center"/>
-<attribute name="VALUE" x="78.74" y="134.112" size="1.778" layer="96" font="vector" rot="R180" align="top-center"/>
+<instance part="Y1" gate="G$1" x="78.74" y="127" smashed="yes" rot="R180">
+<attribute name="NAME" x="78.74" y="124.968" size="1.778" layer="95" font="vector" rot="R180" align="bottom-center"/>
+<attribute name="VALUE" x="78.74" y="129.032" size="1.778" layer="96" font="vector" rot="R180" align="top-center"/>
 </instance>
-<instance part="C1" gate="G$1" x="83.82" y="127" smashed="yes" rot="R180">
-<attribute name="NAME" x="87.376" y="124.079" size="1.778" layer="95" font="vector" rot="R180"/>
-<attribute name="VALUE" x="89.916" y="129.159" size="1.778" layer="96" font="vector" rot="R180"/>
+<instance part="C1" gate="G$1" x="83.82" y="121.92" smashed="yes" rot="R180">
+<attribute name="NAME" x="87.376" y="118.999" size="1.778" layer="95" font="vector" rot="R180"/>
+<attribute name="VALUE" x="89.916" y="124.079" size="1.778" layer="96" font="vector" rot="R180"/>
 </instance>
-<instance part="C2" gate="G$1" x="73.66" y="127" smashed="yes" rot="R180">
-<attribute name="NAME" x="72.136" y="124.079" size="1.778" layer="95" font="vector" rot="R180"/>
-<attribute name="VALUE" x="72.136" y="129.159" size="1.778" layer="96" font="vector" rot="R180"/>
+<instance part="C2" gate="G$1" x="73.66" y="121.92" smashed="yes" rot="R180">
+<attribute name="NAME" x="72.136" y="118.999" size="1.778" layer="95" font="vector" rot="R180"/>
+<attribute name="VALUE" x="72.136" y="124.079" size="1.778" layer="96" font="vector" rot="R180"/>
 </instance>
-<instance part="GND1" gate="1" x="78.74" y="114.3" smashed="yes">
-<attribute name="VALUE" x="78.74" y="114.046" size="1.778" layer="96" align="top-center"/>
+<instance part="GND1" gate="1" x="78.74" y="109.22" smashed="yes">
+<attribute name="VALUE" x="78.74" y="108.966" size="1.778" layer="96" align="top-center"/>
 </instance>
-<instance part="GND2" gate="1" x="88.9" y="139.7" smashed="yes">
-<attribute name="VALUE" x="88.9" y="139.446" size="1.778" layer="96" align="top-center"/>
+<instance part="GND2" gate="1" x="88.9" y="134.62" smashed="yes">
+<attribute name="VALUE" x="88.9" y="134.366" size="1.778" layer="96" align="top-center"/>
 </instance>
-<instance part="SUPPLY1" gate="G$1" x="83.82" y="152.4" smashed="yes">
-<attribute name="VALUE" x="83.82" y="155.194" size="1.778" layer="96" align="bottom-center"/>
+<instance part="SUPPLY1" gate="G$1" x="83.82" y="147.32" smashed="yes">
+<attribute name="VALUE" x="83.82" y="150.114" size="1.778" layer="96" align="bottom-center"/>
 </instance>
-<instance part="R1" gate="G$1" x="22.86" y="162.56" smashed="yes" rot="R270">
-<attribute name="NAME" x="24.384" y="167.64" size="1.778" layer="95" font="vector" rot="R270" align="bottom-center"/>
-<attribute name="VALUE" x="26.416" y="160.02" size="1.778" layer="96" font="vector" rot="R270" align="top-center"/>
+<instance part="R1" gate="G$1" x="22.86" y="157.48" smashed="yes" rot="R270">
+<attribute name="NAME" x="24.384" y="162.56" size="1.778" layer="95" font="vector" rot="R270" align="bottom-center"/>
+<attribute name="VALUE" x="26.416" y="154.94" size="1.778" layer="96" font="vector" rot="R270" align="top-center"/>
 </instance>
-<instance part="SUPPLY2" gate="G$1" x="22.86" y="170.18" smashed="yes">
-<attribute name="VALUE" x="22.86" y="172.974" size="1.778" layer="96" align="bottom-center"/>
+<instance part="SUPPLY2" gate="G$1" x="22.86" y="165.1" smashed="yes">
+<attribute name="VALUE" x="22.86" y="167.894" size="1.778" layer="96" align="bottom-center"/>
 </instance>
 <instance part="J1" gate="G$1" x="223.52" y="73.66" smashed="yes" rot="MR0">
 <attribute name="NAME" x="228.6" y="79.248" size="1.778" layer="95" font="vector" rot="MR0"/>
@@ -6311,12 +6311,12 @@ Should provide about 20ms from power applied to !RST &gt; 0.7*VDD</text>
 <attribute name="NAME" x="147.32" y="174.244" size="1.778" layer="95" font="vector" align="bottom-center"/>
 <attribute name="VALUE" x="147.32" y="171.196" size="1.778" layer="96" font="vector" align="top-center"/>
 </instance>
-<instance part="C13" gate="G$1" x="22.86" y="147.32" smashed="yes">
-<attribute name="NAME" x="24.384" y="150.241" size="1.778" layer="95" font="vector"/>
-<attribute name="VALUE" x="24.384" y="145.161" size="1.778" layer="96" font="vector"/>
+<instance part="C13" gate="G$1" x="22.86" y="142.24" smashed="yes">
+<attribute name="NAME" x="24.384" y="145.161" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="24.384" y="140.081" size="1.778" layer="96" font="vector"/>
 </instance>
-<instance part="GND15" gate="1" x="22.86" y="139.7" smashed="yes">
-<attribute name="VALUE" x="22.86" y="139.446" size="1.778" layer="96" align="top-center"/>
+<instance part="GND15" gate="1" x="22.86" y="134.62" smashed="yes">
+<attribute name="VALUE" x="22.86" y="134.366" size="1.778" layer="96" align="top-center"/>
 </instance>
 </instances>
 <busses>
@@ -6325,31 +6325,31 @@ Should provide about 20ms from power applied to !RST &gt; 0.7*VDD</text>
 <net name="N$2" class="0">
 <segment>
 <pinref part="C1" gate="G$1" pin="2"/>
-<wire x1="83.82" y1="139.7" x2="83.82" y2="132.08" width="0.1524" layer="91"/>
+<wire x1="83.82" y1="134.62" x2="83.82" y2="127" width="0.1524" layer="91"/>
 <pinref part="Y1" gate="G$1" pin="1"/>
-<wire x1="83.82" y1="132.08" x2="83.82" y2="129.54" width="0.1524" layer="91"/>
-<wire x1="81.28" y1="132.08" x2="83.82" y2="132.08" width="0.1524" layer="91"/>
-<junction x="83.82" y="132.08"/>
+<wire x1="83.82" y1="127" x2="83.82" y2="124.46" width="0.1524" layer="91"/>
+<wire x1="81.28" y1="127" x2="83.82" y2="127" width="0.1524" layer="91"/>
+<junction x="83.82" y="127"/>
 <pinref part="U1" gate="G$1" pin="RCLK"/>
-<wire x1="71.12" y1="139.7" x2="83.82" y2="139.7" width="0.1524" layer="91"/>
+<wire x1="71.12" y1="134.62" x2="83.82" y2="134.62" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="GND" class="0">
 <segment>
 <pinref part="C2" gate="G$1" pin="1"/>
-<wire x1="73.66" y1="121.92" x2="73.66" y2="119.38" width="0.1524" layer="91"/>
+<wire x1="73.66" y1="116.84" x2="73.66" y2="114.3" width="0.1524" layer="91"/>
 <pinref part="C1" gate="G$1" pin="1"/>
-<wire x1="73.66" y1="119.38" x2="78.74" y2="119.38" width="0.1524" layer="91"/>
-<wire x1="78.74" y1="119.38" x2="83.82" y2="119.38" width="0.1524" layer="91"/>
-<wire x1="83.82" y1="119.38" x2="83.82" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="73.66" y1="114.3" x2="78.74" y2="114.3" width="0.1524" layer="91"/>
+<wire x1="78.74" y1="114.3" x2="83.82" y2="114.3" width="0.1524" layer="91"/>
+<wire x1="83.82" y1="114.3" x2="83.82" y2="116.84" width="0.1524" layer="91"/>
 <pinref part="GND1" gate="1" pin="GND"/>
-<wire x1="78.74" y1="116.84" x2="78.74" y2="119.38" width="0.1524" layer="91"/>
-<junction x="78.74" y="119.38"/>
+<wire x1="78.74" y1="111.76" x2="78.74" y2="114.3" width="0.1524" layer="91"/>
+<junction x="78.74" y="114.3"/>
 </segment>
 <segment>
 <pinref part="U1" gate="G$1" pin="GND"/>
-<wire x1="71.12" y1="144.78" x2="88.9" y2="144.78" width="0.1524" layer="91"/>
-<wire x1="88.9" y1="144.78" x2="88.9" y2="142.24" width="0.1524" layer="91"/>
+<wire x1="71.12" y1="139.7" x2="88.9" y2="139.7" width="0.1524" layer="91"/>
+<wire x1="88.9" y1="139.7" x2="88.9" y2="137.16" width="0.1524" layer="91"/>
 <pinref part="GND2" gate="1" pin="GND"/>
 </segment>
 <segment>
@@ -6421,8 +6421,8 @@ Should provide about 20ms from power applied to !RST &gt; 0.7*VDD</text>
 </segment>
 <segment>
 <pinref part="U1" gate="G$1" pin="RFGND"/>
-<wire x1="40.64" y1="160.02" x2="38.1" y2="160.02" width="0.1524" layer="91"/>
-<label x="38.1" y="160.02" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="40.64" y1="154.94" x2="38.1" y2="154.94" width="0.1524" layer="91"/>
+<label x="38.1" y="154.94" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="GND11" gate="1" pin="GND"/>
@@ -6431,15 +6431,15 @@ Should provide about 20ms from power applied to !RST &gt; 0.7*VDD</text>
 </segment>
 <segment>
 <pinref part="C13" gate="G$1" pin="2"/>
-<wire x1="22.86" y1="144.78" x2="22.86" y2="142.24" width="0.1524" layer="91"/>
+<wire x1="22.86" y1="139.7" x2="22.86" y2="137.16" width="0.1524" layer="91"/>
 <pinref part="GND15" gate="1" pin="GND"/>
 </segment>
 </net>
 <net name="LIN" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="LIN"/>
-<wire x1="71.12" y1="165.1" x2="73.66" y2="165.1" width="0.1524" layer="91"/>
-<label x="73.66" y="165.1" size="1.27" layer="95" xref="yes"/>
+<wire x1="71.12" y1="160.02" x2="73.66" y2="160.02" width="0.1524" layer="91"/>
+<label x="73.66" y="160.02" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
 <pinref part="C5" gate="G$1" pin="1"/>
@@ -6450,8 +6450,8 @@ Should provide about 20ms from power applied to !RST &gt; 0.7*VDD</text>
 <net name="RIN" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="RIN"/>
-<wire x1="71.12" y1="162.56" x2="73.66" y2="162.56" width="0.1524" layer="91"/>
-<label x="73.66" y="162.56" size="1.27" layer="95" xref="yes"/>
+<wire x1="71.12" y1="157.48" x2="73.66" y2="157.48" width="0.1524" layer="91"/>
+<label x="73.66" y="157.48" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
 <pinref part="C4" gate="G$1" pin="1"/>
@@ -6462,8 +6462,8 @@ Should provide about 20ms from power applied to !RST &gt; 0.7*VDD</text>
 <net name="LOUT" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="LOUT"/>
-<wire x1="71.12" y1="157.48" x2="73.66" y2="157.48" width="0.1524" layer="91"/>
-<label x="73.66" y="157.48" size="1.27" layer="95" xref="yes"/>
+<wire x1="71.12" y1="152.4" x2="73.66" y2="152.4" width="0.1524" layer="91"/>
+<label x="73.66" y="152.4" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
 <wire x1="121.92" y1="76.2" x2="124.46" y2="76.2" width="0.1524" layer="91"/>
@@ -6474,8 +6474,8 @@ Should provide about 20ms from power applied to !RST &gt; 0.7*VDD</text>
 <net name="ROUT" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="ROUT"/>
-<wire x1="71.12" y1="154.94" x2="73.66" y2="154.94" width="0.1524" layer="91"/>
-<label x="73.66" y="154.94" size="1.27" layer="95" xref="yes"/>
+<wire x1="71.12" y1="149.86" x2="73.66" y2="149.86" width="0.1524" layer="91"/>
+<label x="73.66" y="149.86" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
 <wire x1="121.92" y1="68.58" x2="124.46" y2="68.58" width="0.1524" layer="91"/>
@@ -6486,29 +6486,29 @@ Should provide about 20ms from power applied to !RST &gt; 0.7*VDD</text>
 <net name="N$8" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="GPO3"/>
-<wire x1="71.12" y1="137.16" x2="73.66" y2="137.16" width="0.1524" layer="91"/>
+<wire x1="71.12" y1="132.08" x2="73.66" y2="132.08" width="0.1524" layer="91"/>
 <pinref part="C2" gate="G$1" pin="2"/>
 <pinref part="Y1" gate="G$1" pin="2"/>
-<wire x1="73.66" y1="132.08" x2="73.66" y2="129.54" width="0.1524" layer="91"/>
-<wire x1="76.2" y1="132.08" x2="73.66" y2="132.08" width="0.1524" layer="91"/>
-<wire x1="73.66" y1="137.16" x2="73.66" y2="132.08" width="0.1524" layer="91"/>
-<junction x="73.66" y="132.08"/>
+<wire x1="73.66" y1="127" x2="73.66" y2="124.46" width="0.1524" layer="91"/>
+<wire x1="76.2" y1="127" x2="73.66" y2="127" width="0.1524" layer="91"/>
+<wire x1="73.66" y1="132.08" x2="73.66" y2="127" width="0.1524" layer="91"/>
+<junction x="73.66" y="127"/>
 </segment>
 </net>
 <net name="3.3V" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="VDD"/>
-<wire x1="71.12" y1="149.86" x2="83.82" y2="149.86" width="0.1524" layer="91"/>
-<wire x1="83.82" y1="149.86" x2="83.82" y2="152.4" width="0.1524" layer="91"/>
+<wire x1="71.12" y1="144.78" x2="83.82" y2="144.78" width="0.1524" layer="91"/>
+<wire x1="83.82" y1="144.78" x2="83.82" y2="147.32" width="0.1524" layer="91"/>
 <pinref part="U1" gate="G$1" pin="VIO"/>
-<wire x1="71.12" y1="147.32" x2="83.82" y2="147.32" width="0.1524" layer="91"/>
-<wire x1="83.82" y1="147.32" x2="83.82" y2="149.86" width="0.1524" layer="91"/>
-<junction x="83.82" y="149.86"/>
+<wire x1="71.12" y1="142.24" x2="83.82" y2="142.24" width="0.1524" layer="91"/>
+<wire x1="83.82" y1="142.24" x2="83.82" y2="144.78" width="0.1524" layer="91"/>
+<junction x="83.82" y="144.78"/>
 <pinref part="SUPPLY1" gate="G$1" pin="3.3V"/>
 </segment>
 <segment>
 <pinref part="R1" gate="G$1" pin="1"/>
-<wire x1="22.86" y1="167.64" x2="22.86" y2="170.18" width="0.1524" layer="91"/>
+<wire x1="22.86" y1="162.56" x2="22.86" y2="165.1" width="0.1524" layer="91"/>
 <pinref part="SUPPLY2" gate="G$1" pin="3.3V"/>
 </segment>
 <segment>
@@ -6559,8 +6559,8 @@ Should provide about 20ms from power applied to !RST &gt; 0.7*VDD</text>
 <net name="ADDR" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="!SEN"/>
-<wire x1="40.64" y1="152.4" x2="38.1" y2="152.4" width="0.1524" layer="91"/>
-<label x="38.1" y="152.4" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="40.64" y1="147.32" x2="38.1" y2="147.32" width="0.1524" layer="91"/>
+<label x="38.1" y="147.32" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="JP2" gate="G$1" pin="1"/>
@@ -6576,18 +6576,18 @@ Should provide about 20ms from power applied to !RST &gt; 0.7*VDD</text>
 <segment>
 <pinref part="R1" gate="G$1" pin="2"/>
 <pinref part="U1" gate="G$1" pin="!RST"/>
-<wire x1="22.86" y1="157.48" x2="22.86" y2="154.94" width="0.1524" layer="91"/>
-<wire x1="22.86" y1="154.94" x2="40.64" y2="154.94" width="0.1524" layer="91"/>
-<wire x1="22.86" y1="154.94" x2="22.86" y2="152.4" width="0.1524" layer="91"/>
-<junction x="22.86" y="154.94"/>
+<wire x1="22.86" y1="152.4" x2="22.86" y2="149.86" width="0.1524" layer="91"/>
+<wire x1="22.86" y1="149.86" x2="40.64" y2="149.86" width="0.1524" layer="91"/>
+<wire x1="22.86" y1="149.86" x2="22.86" y2="147.32" width="0.1524" layer="91"/>
+<junction x="22.86" y="149.86"/>
 <pinref part="C13" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="FMI" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="FMI"/>
-<wire x1="40.64" y1="165.1" x2="38.1" y2="165.1" width="0.1524" layer="91"/>
-<label x="38.1" y="165.1" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="40.64" y1="160.02" x2="38.1" y2="160.02" width="0.1524" layer="91"/>
+<label x="38.1" y="160.02" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="C3" gate="G$1" pin="1"/>
@@ -6598,8 +6598,8 @@ Should provide about 20ms from power applied to !RST &gt; 0.7*VDD</text>
 <net name="TXO" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="TXO"/>
-<wire x1="40.64" y1="162.56" x2="38.1" y2="162.56" width="0.1524" layer="91"/>
-<label x="38.1" y="162.56" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="40.64" y1="157.48" x2="38.1" y2="157.48" width="0.1524" layer="91"/>
+<label x="38.1" y="157.48" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <wire x1="210.82" y1="175.26" x2="203.2" y2="175.26" width="0.1524" layer="91"/>
@@ -6614,22 +6614,22 @@ Should provide about 20ms from power applied to !RST &gt; 0.7*VDD</text>
 <net name="GPO1" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="GPO1"/>
-<wire x1="40.64" y1="142.24" x2="38.1" y2="142.24" width="0.1524" layer="91"/>
-<label x="38.1" y="142.24" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="40.64" y1="137.16" x2="38.1" y2="137.16" width="0.1524" layer="91"/>
+<label x="38.1" y="137.16" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="GPO2" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="GPO2/!INT"/>
-<wire x1="40.64" y1="137.16" x2="38.1" y2="137.16" width="0.1524" layer="91"/>
-<label x="38.1" y="137.16" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="40.64" y1="132.08" x2="38.1" y2="132.08" width="0.1524" layer="91"/>
+<label x="38.1" y="132.08" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="SCLK" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="SCLK"/>
-<wire x1="40.64" y1="149.86" x2="38.1" y2="149.86" width="0.1524" layer="91"/>
-<label x="38.1" y="149.86" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="40.64" y1="144.78" x2="38.1" y2="144.78" width="0.1524" layer="91"/>
+<label x="38.1" y="144.78" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="J4" gate="G$1" pin="4"/>
@@ -6649,8 +6649,8 @@ Should provide about 20ms from power applied to !RST &gt; 0.7*VDD</text>
 <net name="SDIO" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="SDIO"/>
-<wire x1="40.64" y1="147.32" x2="38.1" y2="147.32" width="0.1524" layer="91"/>
-<label x="38.1" y="147.32" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="40.64" y1="142.24" x2="38.1" y2="142.24" width="0.1524" layer="91"/>
+<label x="38.1" y="142.24" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="J4" gate="G$1" pin="3"/>
